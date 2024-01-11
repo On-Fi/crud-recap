@@ -45,7 +45,7 @@ const lemonFont = Lemon({
   display: 'swap',
 })
 
-// Ich habe die Farbe von den Fonts im <Hero> geändert indem ich hier die Farbe grün angegeben habe 
+// Ich 
 const Hero = styled.header` 
   display: flex;
   flex-direction: column;
@@ -69,16 +69,16 @@ export default function HomePage() {
   return (
     <Flex direction="column" padding="1rem" gap="4rem" flex={1}>
       <Hero>
-        <h1 className={bungee.className}>ACME Services im Bungee_Spice Font</h1>
+        <h1 className={bungee.className}>Text im Bungee_Spice Font</h1>
         <Rocketlogo />
-        <p className={lemonFont.className}>
-          Here you can offer your help
+        <p className={lemonFont.className} style={{ color: 'darkgray' }}>
+          blablablablablabla
           <br />
-          and book anything you might need! im Lemon Font
+          jajajajajajajajajajajajajaja im Lemon Font und ist grau
         </p>
         <Flex>
           <ActionLink size="large" href="/dashboard/services/create" className={comic.className} style={{ color: 'yellow' }}>
-            Share your Skills im Comic Neue Font
+            Text im Comic Neue Font und ist gelb
           </ActionLink>
           <ComicText>
             Dieser Text ist im Comic Neue Font und ist rot.
@@ -87,7 +87,7 @@ export default function HomePage() {
       </Hero>
       <Flex direction="column" gap="2rem">
         <Flex as="h2" justifyContent="center" className={publicSans.className}>
-          All Services im Public Sans Font
+          Text im Public Sans Font
         </Flex>
         <Services />
       </Flex>

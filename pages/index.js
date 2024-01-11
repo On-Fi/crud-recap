@@ -2,6 +2,7 @@ import styled from "styled-components";
 import Flex from "@/components/Layout/Flex";
 import ActionLink from "@/components/Layout/ActionLink";
 import Services from "@/components/Services";
+import Rocketlogo from "@/components/rocketlogo";
 
 const Hero = styled.header`
   display: flex;
@@ -26,6 +27,7 @@ export default function HomePage() {
     <Flex direction="column" padding="1rem" gap="4rem" flex={1}>
       <Hero>
         <h1>ACME Services</h1>
+        <Rocketlogo />
         <p>
           Here you can offer your help
           <br />
